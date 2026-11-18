@@ -23,6 +23,5 @@ ENV NODE_ENV=production \
     PORT=8080 \
     TW_DATA_DIR=/data
 EXPOSE 8080
-VOLUME ["/data"]
 
 CMD ["node", "/app/server.js"]
